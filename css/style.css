@@ -1,29 +1,42 @@
-/* minha folha de estilo */
-.contGal {
+/* Minha folha de estilo */
+
+html{
+    background-color: #001935;
+}
+
+.contGal{
     width: 80%;
     margin: 0 auto;
 }
 
-.imagens {
-    width: 80%;
+.imagens{
+    width: 100%;
     margin-top: 20px;
     display: flex;
 }
 
-.cartao {
-    width: 35%;
+.cartao{
+    font-family: 'Bree Serif', ;
+    font-family: 'Righteous', ;
+    width: 45%;
     padding: 10px;
-    background-color: "#DCDCDC";
-    border: 1px solid black;
+    background-color: lightcyan;
+    border: 1px solid rgb(rgb(248, 120, 120), green, blue);
 }
 
-.cartao img {
+.cartao img{
     width: 100%;
 }
 
-.cartao p {
-    font-size: 16px;
-    color: "#4682B4";
+.cartao p{
+    font-size: 20px;
+    color: rgb(34, 19, 8);
     margin-top: 15px;
 }
 
+h1{
+    text-align: center;
+    font-size: 70px;
+    color: rgb(255, 255, 255);
+    font-family: 'Bree Serif', ;
+}
